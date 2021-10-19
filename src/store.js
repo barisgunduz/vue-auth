@@ -8,7 +8,7 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
     state: {
         token: "",
-        fbAPIKey: "AIzaSyDR1rhhmPGMtf9Y5577vLRlM9lQxvjHt9k",
+        fbAPIKey: "<YOUR_AUTH_KEY>",
     },
     mutations: {
         setToken(state, token) {
